@@ -1,0 +1,39 @@
+h1 {
+    color: pink;
+}
+
+.note {
+    color: purple;
+}
+
+#special {
+    color: brown;
+}
+
+.card{
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card_title {
+    font-size: 100px;
+    margin-bottom: 8px;
+}
+
+.card_button {
+    background-color: plum;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 7px;
+}
+
+.card_button--large {
+    padding: 14px 20px;
+    font-size: 20px;
+}
+
+.card_description {
+    text-align: right;
+}

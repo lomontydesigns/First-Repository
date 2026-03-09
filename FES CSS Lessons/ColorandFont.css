@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+body{
+    text-align: center;
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+.color {
+    background-color: #c9501f;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 40px;
+}
+
+.color h1{
+    color: #254a31;
+}
+
+.color p{
+    color: rgb(30,200,10);
+    background-color: beige;
+}
+
+.font{
+    text-align: center;
+}
+
+.font h2{
+    font-family: 'Gravitas One', serif;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.font p{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.font a{
+    display: inline-block;
+    padding: 14px;
+    font-size: 13px;
+    margin-top: 10px;
+    border: 1px solid #254a31;
+    border-radius: 12px;
+    text-decoration: none;
+    color:#254a31;
+}

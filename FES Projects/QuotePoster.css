@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Kaushan+Script&display=swap');
+
+body{
+font-family: Kaushan Script, serif;
+margin: 0;
+text-align: center;
+background-color: #c1abcd;
+padding: 20px;
+}
+
+.quote {
+margin: 100px auto;
+padding: 50px;
+width: 500px;
+height: 500px;
+line-height: 1.5;
+letter-spacing: 0.5px;
+background: linear-gradient(135deg,#582374, black);
+color: white;
+border: 5px solid white;
+border-radius: 40px;
+box-sizing: border-box;
+box-shadow: 10px 10px 60px white;
+}
+
+.quote h1 {
+    text-align: left;
+    font-size: 24px;
+    margin: auto;
+}
+
+.divider{
+    width: 400px;
+    height: 0.5px;
+    margin: 60px auto;
+    background-color: white;
+}
+
+.quote p{
+    padding: 20px;
+    text-align: right;
+}
+
+.em {
+    font-size: 50px;
+}

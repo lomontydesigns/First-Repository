@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+.modal {
+    position:fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0.98);
+    background: lavender;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 100px rebeccapurple;
+    z-index: 1000;
+    transition: 0.4s ease;
+    opacity: 1;
+    transform: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.tooltip-container {
+    position: relative;
+    display:inline-block;
+    margin-top: 20%;
+    margin-left: 10%;
+
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:blueviolet;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.9s ease;
+}
+
+.tooltip-container:hover .tooltip{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-10px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background: darkorchid;
+    color: white;
+    padding: 20px;
+}
+
+.menu a {
+    position: relative;
+    text-decoration: none;
+    color:azure;
+    font-weight: 600;
+}
+
+.menu a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    opacity: 50%;
+    background:darkorchid;
+    
+}
+
+.menu a:hover::after {
+    width: 100%
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: black;
+    z-index: 900;
+    opacity: 50%;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}

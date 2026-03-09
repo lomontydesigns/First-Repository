@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+body {
+    font-family: 'sansation', sans-serif;
+    background-color: #eca937;
+    text-align: center;
+    padding: 50px;
+}
+
+.plan-one {
+background-color: white;
+width: 280px;
+margin: 0;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 10px #322002;
+transition: transform 0.2s ease;
+border: 4px solid #322002;
+}
+
+.plan-one:hover {
+  background-color: #fff2c2;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.plan-two {
+background-color: white;
+width: 280px;
+margin: 0;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 10px #322002;
+transition: transform 0.2s ease;
+border: 4px solid #322002;
+}
+
+.plan-two:hover {
+background-color: #fff2c2;
+transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.plan-three {
+background-color: white;
+width: 280px;
+margin: 0;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 10px #322002;
+transition: transform 0.2s ease;
+border: 4px solid #322002;
+}
+
+.plan-three:hover {
+  background-color: #fff2c2;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.plan:hover{
+    transform: translateY(-4px);
+}
+
+.plan_title {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+}
+
+.plan_price {
+    font-size: 28px;
+    color: olivedrab;
+    margin-bottom: 20px;
+}
+
+.plan_price span{
+    font-size: 14px;
+    color: olivedrab
+}
+
+.plan_features{
+    list-style: decimal;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'sansation';
+}
+
+.plan_feature{
+    padding: 8px;
+    color: olivedrab;
+    margin-left: 60px;
+}
+
+.plan_button{
+    background-color: olivedrab;
+    color: black;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: sansation;
+}
+
+.plan_button:hover {
+    background-color: #eca937;
+}
+
+.plans {
+display: flex;
+gap: 20px;                
+justify-content: center; 
+flex-wrap: wrap;         
+}

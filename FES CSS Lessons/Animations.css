@@ -1,0 +1,85 @@
+body{
+    background-color: lightpink;
+}
+.container{
+    display:flex;
+    gap:20px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card {
+    text-align: center;
+    margin-top: 40px;
+    width: 32%;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 5px solid oldlace;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+@keyframes fadeslide {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.banner {
+    margin-top: 40px;
+    padding: 24px;
+    background-color: oldlace;
+    border-radius: 10px;
+    animation: fadeslide 1s ease-in-out 300ms;
+}
+
+@keyframes slidegrow {
+    from {
+        transform: translateX(60px) scale(1.5) rotate(45deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0) scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.box {
+    text-align: center;
+    width: 75%;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    animation: slidegrow 1s ease-in 300ms;
+    border: 5px solid oldlace;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        justify-content: center;
+    }
+    .card {
+        width: 70%;
+        height: 25vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 70%;
+    }
+}
+

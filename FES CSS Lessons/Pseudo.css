@@ -1,0 +1,27 @@
+.submit{
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.submit:active {
+    background-color: pink;
+}
+
+.submit::after {
+  content: "";
+  display:block;
+  height: 1px;
+  background: white;
+  width: 0;
+  transition: width 0.3s;
+}
+
+
+.submit:hover::after {
+  width: 100%;
+}
